@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- internal style used for learning purpose - should always use external stylesheet -->
+    <style>
+        table, tr, td{
+            border:2px solid black;
+            border-collapse: collapse;/* this border-collapse property collapses the border of the table*/
+        }
+    </style>
 </head>
 <body>
     <!-- This HTML file contains information related to table layout -->
@@ -11,28 +18,29 @@
       <table>
         <!-- To target column we can also use col group -->
         <colgroup>
-            <col>
-            <col>
+            <!-- Inline style should always be avoided -->
+            <col style="background-color: red;">
+            <col style="background-color: yellow;">
         </colgroup>
         <!-- header row of the table should always be added inside the thead -->
         <thead>
             <tr>
-                <td></td>
-                <td></td>
+                <td>first</td>
+                <td>second</td>
             </tr>
         </thead>
         <!-- body rows of the table should always be added inside the tbody -->
         <tbody>
             <tr>
-                <td></td>
-                <td></td>
+                <td>1</td>
+                <td>2</td>
             </tr>
         </tbody>
         <!-- footer row of the table should always be added inside the tfoot -->
         <tfoot>
             <tr>
-                <td></td>
-                <td></td>
+                <td>1</td>
+                <td>2</td>
             </tr>
         </tfoot>
       </table>
