@@ -1,0 +1,14 @@
+/*CSS related to positions*/
+.box{
+    width: 500px;
+    height: 500px;
+    outline: 1px solid green;
+}
+.staticPosition{
+    position: relative;
+    /* By defualt if we set the position to relative alone nothing won't change.  We have to provice top, left, bottom, right properties
+    to move the content in the screen. */
+    top: 50px;
+    left: 50px;
+    background-color: lightgreen;
+}

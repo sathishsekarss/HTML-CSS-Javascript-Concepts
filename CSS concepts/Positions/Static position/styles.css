@@ -1,0 +1,5 @@
+/*CSS related to positions*/
+.staticPosition{
+    position: static;
+    background-color: lightgreen;
+}
