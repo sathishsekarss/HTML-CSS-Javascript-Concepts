@@ -25,7 +25,7 @@ To add icon’s to your site, use the link tag as follows
 
 Underlining texts other than links is not a good practice.
 
-## Headers tag ( h1-h6 )f
+## Headers tag
 It is really good to use appropriate headers for displaying heading.
 For eg. h1 for main heading, h2 for sub heading, h3 for sub-sub heading and so on.
 
