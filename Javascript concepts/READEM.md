@@ -2,7 +2,7 @@ Table of contents
 1. [Variable declaration](#variableDeclaration)
 2. [Number objects](#numberObjects)
 
-## Javascript notes
+## Variable declaration
 Types of variable declaration: let, var, and const
 
 it is always preferred to use the “let” keyword instead of the “var” keyword for declaring variables.
