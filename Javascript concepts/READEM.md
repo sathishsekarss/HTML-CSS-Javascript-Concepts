@@ -1,5 +1,5 @@
 Table of contents
-1. <a name="javascriptNotes"></a>
+1. <a id="javascriptNotes"></a>
 
 <b> [Javascript notes](#javascriptNotes) </b>
 Types of variable declaration: let, var, and const
