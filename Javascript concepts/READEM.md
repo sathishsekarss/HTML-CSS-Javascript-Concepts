@@ -1,4 +1,7 @@
-<b> Javascript notes </b>
+Table of contents
+1. <a name="javascriptNotes"></a>
+
+<b> [Javascript notes](#javascriptNotes) </b>
 Types of variable declaration: let, var, and const
 
 it is always preferred to use the “let” keyword instead of the “var” keyword for declaring variables.
