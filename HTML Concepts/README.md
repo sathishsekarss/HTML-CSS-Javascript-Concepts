@@ -1,7 +1,7 @@
 Table of contents
 - [Head tag](#headTagDetails)
 - [Headers tag](#headersTag)
-- [Adding images to web pages] (#addingImages)
+- [Adding images to web pages](#addingImages)
 
 
 # Head tag
