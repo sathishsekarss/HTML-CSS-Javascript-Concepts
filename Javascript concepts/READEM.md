@@ -1,7 +1,7 @@
 Table of contents
 1. [Javascript notes](#javascriptNotes)
 
-<b> #Javascript notes</b>
+#Javascript notes
 Types of variable declaration: let, var, and const
 
 it is always preferred to use the “let” keyword instead of the “var” keyword for declaring variables.
