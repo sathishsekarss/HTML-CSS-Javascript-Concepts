@@ -1,5 +1,6 @@
 Table of contents
-1. [Javascript notes](#javascriptNotes)
+1. [Variable declaration](#variableDeclaration)
+2. [Number objects](#numberObjects)
 
 ## Javascript notes
 Types of variable declaration: let, var, and const
@@ -8,7 +9,7 @@ it is always preferred to use the “let” keyword instead of the “var” key
 
 Variables hoisting: It means calling the variable even before it is declared. It will throw “undefined” message.
 
-<b> Number objects: </b>
+## Number objects
 
 Everything that deals with numbers in javascript is of type “number”. For example, you either declare var with 200 or 200.24 with floating digits type.  It is of type number.
 
