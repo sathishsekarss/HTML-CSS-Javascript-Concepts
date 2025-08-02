@@ -1,5 +1,5 @@
 Table of contents
-1. [Javascript notes](.javascriptNotes)
+1. [Javascript notes](#javascriptNotes)
 
 #Javascript notes
 Types of variable declaration: let, var, and const
