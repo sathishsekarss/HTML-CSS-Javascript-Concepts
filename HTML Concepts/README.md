@@ -1,6 +1,6 @@
 Table of contents
--[Head tag](#headTagDetails)
-	-[Headers tag](#headersTag)
+- [Head tag](#headTagDetails)
+	- [Headers tag](#headersTag)
 
 
 # Head tag
