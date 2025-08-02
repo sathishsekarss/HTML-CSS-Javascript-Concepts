@@ -37,17 +37,17 @@ There are two ways to add images to web pages, one through <img/> tag and other 
 
 What is the difference between both ? Well, the answer is, css background-image property is only used for decoration purposes, we cannot add alt text to it, it will be invisible to screen readers.  While the <img/> tag is used as part of your page content, it as alt attribute to provide alternative text, which helps screen readers.  If you want to decorate, use css background-image property, if you want to add as part of your web page use <img/> property.
 
-TITLE ATTRIBUTE:  Like in <a></a> tag, we can use the title attribute for images too.  But it is not advised to use tittle attribute ( espcially sharing important information in tittle attribute ), think of the user without keyboard.  Always better to provide text in alt or between the tags in certain cases like ( where the image is placed in <a></a> tag, you can specify the text directly between the tags along with images, try to avoid using title as much as possible. ).
+**TITLE ATTRIBUTE:**  Like in <a></a> tag, we can use the title attribute for images too.  But it is not advised to use tittle attribute ( espcially sharing important information in tittle attribute ), think of the user without keyboard.  Always better to provide text in alt or between the tags in certain cases like ( where the image is placed in <a></a> tag, you can specify the text directly between the tags along with images, try to avoid using title as much as possible. ).
 
-ANNOTATING IMAGES WITH FIGURES AND FIGURE CAPTIONS
+**ANNOTATING IMAGES WITH FIGURES AND FIGURE CAPTIONS**
 
 The above image is NOT A CORRECT WAY TO ANNOTATE CAPTIONS ALONG WITH IMAGES.  Although this will work without any issues.  Think about the people with screen readers, what if the page has several images, then there will be a confusion on which image goes with which caption.  To solve this issue, figure and figcaption attribute is used.  The below image describes the correct way to use it.
 
 
-WIDTH AND HEIGHT ATTRIBUTE IN IMAGE TAG:  In image tag, it is better to use width and height attribute. If the internet is slow and image is not downloaded, the page will just allocate the space for the image making it look tidier.
+**WIDTH AND HEIGHT ATTRIBUTE IN IMAGE TAG:**  In image tag, it is better to use width and height attribute. If the internet is slow and image is not downloaded, the page will just allocate the space for the image making it look tidier.
 
 
-Note:  Do not provide width and height values, above or below the actual image size.  It’ll make the image squished, fuzzy or worse.
+**Note:**  Do not provide width and height values, above or below the actual image size.  It’ll make the image squished, fuzzy or worse.
 
 
 
