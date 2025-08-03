@@ -50,11 +50,11 @@ The above image is NOT A CORRECT WAY TO ANNOTATE CAPTIONS ALONG WITH IMAGES.  Al
 **Note:**  Do not provide width and height values, above or below the actual image size.  It’ll make the image squished, fuzzy or worse.
 
 ## Adding videos and audios to web pages
-For adding videos and audio to web pages, the <code> <video></video> and <audio></audio> </code> tags are used.
+For adding videos and audio to web pages, the video and audio tags are used.
 
 How do we add the video’s or audio’s to it ? Simple, just add the src attribute and point the url to it.
 
-What if there are more video types like mp3, mp4 and mpeg for both video’s and audio’s ?
+**What if there are more video types like mp3, mp4 and mpeg for both video’s and audio’s ?**
 
 Well, in that case, we can use < source > tag inside the video or audio tag.  The source tag should contain src attribute for pointing to the video's location and type attribute for defining what type of video file it is ( eg. video/mp4 or video/mp3 etc ).  The type attribute is not mandatory, but IT IS ADVISED TO PROVIDE THE TYPE ATTRIBUTE AS IT WILL HELP IN FASTER PAGE LOAD TIME. ( if we don’t provide the type, the browser will check all types and takes more processing time ).
 
