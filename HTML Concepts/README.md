@@ -50,7 +50,7 @@ The above image is NOT A CORRECT WAY TO ANNOTATE CAPTIONS ALONG WITH IMAGES.  Al
 **Note:**  Do not provide width and height values, above or below the actual image size.  It’ll make the image squished, fuzzy or worse.
 
 ## Adding videos and audios to web pages
-For adding videos and audio to web pages, the <video></video> and <audio></audio> tags are used.
+For adding videos and audio to web pages, the <code> <video></video> and <audio></audio> </code> tags are used.
 
 How do we add the video’s or audio’s to it ? Simple, just add the src attribute and point the url to it.
 
