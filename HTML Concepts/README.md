@@ -2,7 +2,7 @@ Table of contents
 - [Head tag](#headTagDetails)
 - [Headers tag](#headersTag)
 - [Adding images to web pages](#addingImages)
-
+- [Adding videos and audios to web pages](#addingVideosAudios)
 
 # Head tag
 
@@ -48,6 +48,32 @@ The above image is NOT A CORRECT WAY TO ANNOTATE CAPTIONS ALONG WITH IMAGES.  Al
 
 
 **Note:**  Do not provide width and height values, above or below the actual image size.  It’ll make the image squished, fuzzy or worse.
+
+## Adding videos and audios to web pages
+For adding videos and audio to web pages, the <video></video> and <audio></audio> tags are used.
+
+How do we add the video’s or audio’s to it ? Simple, just add the src attribute and point the url to it.
+
+What if there are more video types like mp3, mp4 and mpeg for both video’s and audio’s ?
+
+Well, in that case, we can use < source > tag inside the video or audio tag.  The source tag should contain src attribute for pointing to the video's location and type attribute for defining what type of video file it is ( eg. video/mp4 or video/mp3 etc ).  The type attribute is not mandatory, but IT IS ADVISED TO PROVIDE THE TYPE ATTRIBUTE AS IT WILL HELP IN FASTER PAGE LOAD TIME. ( if we don’t provide the type, the browser will check all types and takes more processing time ).
+
+You can also include controls attribute in video or audio tag, to get controls like pause, play, full screen, options etc.
+
+There are other attributes like autoplay, loop, poster ( for display, the picture at start of the video while it in paused state ). Width and height ( both width and height are only available for video types, since the audio types does not have any visual context ).
+
+**ADDING SUBTITLES TO VIDEOS.**
+
+We can add subtitles to our videos simply by creating a filename.vtt and pointing it in <track> element.
+
+The track element should be used inside the video tag, if the source tag is used, it should be placed after the source tag.
+	
+The track tag has attributes like kind ( to specify kind’s like, it caption or subtitles or any other types), src ( to point to the filename.vtt for loading the file contents ), srclang ( in which it is specified ) and label ( for provided language type ).
+
+For more information on track element and VTT, refer to mdn docs.
+
+NOTE: Video captions are also used for SEO.
+
 
 
 
