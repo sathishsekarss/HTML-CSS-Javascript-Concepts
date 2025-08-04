@@ -3,6 +3,7 @@ Table of contents
 - [Headers tag](#headersTag)
 - [Adding images to web pages](#addingImages)
 - [Adding videos and audios to web pages](#addingVideosAudios)
+- [Adding object's and Iframes in HTML pages](#addingObjectsAndIframes)
 
 # Head tag
 
@@ -73,6 +74,23 @@ The track tag has attributes like kind ( to specify kind’s like, it caption or
 For more information on track element and VTT, refer to mdn docs.
 
 NOTE: Video captions are also used for SEO.
+
+## Adding object's and Iframes in HTML pages
+
+Adding an iframe to our page mean’s simply embedding other web pages into our html page.
+	
+For eg. Youtube allows users to add their video through their own iframe link, which they provide in video’s.  ( it can be accessed through the share button in the youtube ).  Also, it works for maps too.
+	
+Adding iframe’s to our page has also many con’s.  One is the security issue.  It can lead to clickjacking, other harmful things.  Do not include other web page in iframe always, that might lead to copyright issues.
+
+	
+Object and embed tag’s are used to embed pdf’s and other files types into our web pages.
+
+For a more detailed explanation on this topic, refer mdn docs.
+
+TIPS:  There are two types of images raster image, which contains the grid of pixels about what color each pixel is and where it is placed etc.
+
+The other one is vector image. The example of vector image is svg’s.  They contain algorithm about the image details in .svg file in the xml format.
 
 
 
