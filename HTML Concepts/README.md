@@ -1,9 +1,9 @@
 Table of contents
-- [Head tag](#headTagDetails)
-- [Headers tag](#headersTag)
-- [Adding images to web pages](#addingImages)
-- [Adding videos and audios to web pages](#addingVideosAudios)
-- [Adding object's and Iframes in HTML pages](#addingObjectsAndIframes)
+- [Head tag](#Head-tag)
+- [Headers tag](#headers-tag)
+- [Adding images to web pages](#Adding-images-to-web-pages)
+- [Adding videos and audios to web pages](#Adding-videos-and-audios-to-web-pages)
+- [Adding object's and Iframes in HTML pages](#Adding-object's -and-Iframes-in-HTML-pages)
 
 # Head tag
 
