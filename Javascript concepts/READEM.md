@@ -1,6 +1,6 @@
 Table of contents
-1. [Variable declaration](#variableDeclaration)
-2. [Number objects](#numberObjects)
+1. [Variable declaration](#variable-declaration)
+2. [Number objects](#number-objects)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
