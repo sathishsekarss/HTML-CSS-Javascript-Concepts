@@ -3,7 +3,7 @@ Table of contents
 - [Headers tag](#headers-tag)
 - [Adding images to web pages](#Adding-images-to-web-pages)
 - [Adding videos and audios to web pages](#Adding-videos-and-audios-to-web-pages)
-- [Adding objects and Iframes in HTML pages] (#Adding-objects-and-Iframes-in-HTML-pages)
+- [Adding objects and Iframes in HTML pages](#Adding-objects-and-Iframes-in-HTML-pages)
 
 # Head tag
 
