@@ -19,3 +19,8 @@ numberobject.tofixed(2) -> it rounds the number to decimal places.
 
 Number(“23423”) -> we pass the number as string and returns the number in digits.  It is not a method, it is a constructor.
 
+[!NOTE]
+In javascript is exponent.  It raised the number to its power. (eg. 5 **2 -> 25 ).  Also there is other method named “Math.pow(5,2)” which returns the same 25 value.
+
+**Comparison operators:**
+		“===” or “!==” are strict versions of comparison operators.  It is always best to use them.  Because, they used to compare both data and datatype.  The normal “==” or “!=” compares only the data.
