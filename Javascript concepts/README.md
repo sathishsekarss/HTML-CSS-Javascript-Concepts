@@ -1,6 +1,7 @@
 Table of contents
 1. [Variable declaration](#variable-declaration)
 2. [Number objects](#number-objects)
+3. [String in Javascript](#string)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -24,3 +25,9 @@ Number(“23423”) -> we pass the number as string and returns the number in di
 
 **Comparison operators:**
 		“===” or “!==” are strict versions of comparison operators.  It is always best to use them.  Because, they used to compare both data and datatype.  The normal “==” or “!=” compares only the data.
+
+## String in Javascript
+
+Strings enclosed within backticks (\`) are called template litereals.  As the name itself describes that, we can include variable names inside the string.  (eg. “hi, my name is ${name}.”).
+We can also include expression in template literals. (eg. \`The value of 20/5 is ${20/5}.\`).
+
