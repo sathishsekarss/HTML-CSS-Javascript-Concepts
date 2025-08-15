@@ -2,7 +2,7 @@ Table of contents
 1. [Variable declaration](#variable-declaration)
 2. [Number objects](#number-objects)
 3. [String in Javascript](#string-in-javascript)
-	3.1. [Common string methods](#common-string-methods)
+	3.1 [Common string methods](#common-string-methods)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
