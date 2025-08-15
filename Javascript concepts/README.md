@@ -75,4 +75,3 @@ Const newNumbers=numbers.map((n)=>{ return n*2}};
 It returns every number present in the numbers array multiplied by 2 and stores it in the newNumbers array.
 
 Filter() – The filter() is useful if you want filter array based on certain conditions. (eg. Where you want to store the elements of the array, if the element length is only greater than 8 ).  For more info, refer mdn docs.
-
