@@ -2,11 +2,11 @@ Table of contents
 1. [Variable declaration](#variable-declaration)
 2. [Number objects](#number-objects)
 3. [String in Javascript](#string-in-javascript)
-	3.1 [Common string methods](#common-string-methods)
+    3.1 [Common string methods](#common-string-methods)
 4. [Arrays in javascript](#arrays-in-javascript)
-	4.1 [Adding items to the array](#adding-items-to-the-array)
-	4.2 [Removing items from the array](#removing-items-from-the-array)
-	4.3 [Loops for arrays](#loops-for-arrays)
+    4.1 [Adding items to the array](#adding-items-to-the-array)
+    4.2 [Removing items from the array](#removing-items-from-the-array)
+    4.3 [Loops for arrays](#loops-for-arrays)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
