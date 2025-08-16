@@ -7,6 +7,7 @@ Table of contents
 	- [Adding items to the array](#adding-items-to-the-array)
 	- [Removing items from the array](#removing-items-from-the-array)
 	- [Loops for arrays](#loops-for-arrays)
+5. [Functions in javascript](#functions-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -75,3 +76,11 @@ Const newNumbers=numbers.map((n)=>{ return n*2}};
 It returns every number present in the numbers array multiplied by 2 and stores it in the newNumbers array.
 
 Filter() – The filter() is useful if you want filter array based on certain conditions. (eg. Where you want to store the elements of the array, if the element length is only greater than 8 ).  For more info, refer mdn docs.
+
+## Functions in javascript
+
+You might be wondering why we haven't included the parantheses after the function name.  This is because we don't want to call the function immediately - only after the button has been clicked.  If you try changing the line to
+
+**btn.addEventListener('click',displayMessage());**
+
+and saving and realoading, you'll see that the message box appears without the button being clicked!  The parantheses in this context are sometimes called the "function invocation operator".  You only use them when you want to run the function immediately in the current scope.  In the same respect, the code inside the anonymous function is not run immediately, as it is inside the function scope.
