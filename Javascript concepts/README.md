@@ -79,6 +79,8 @@ Filter() – The filter() is useful if you want filter array based on certain co
 
 ## Functions in javascript
 
+**btn.addEventListener('click',displayMessage);**
+
 You might be wondering why we haven't included the parantheses after the function name.  This is because we don't want to call the function immediately - only after the button has been clicked.  If you try changing the line to
 
 **btn.addEventListener('click',displayMessage());**
