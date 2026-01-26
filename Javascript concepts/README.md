@@ -8,6 +8,7 @@ Table of contents
 	- [Removing items from the array](#removing-items-from-the-array)
 	- [Loops for arrays](#loops-for-arrays)
 5. [Functions in javascript](#functions-in-javascript)
+5. [Classes in Javascript](#classes-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -86,3 +87,6 @@ You might be wondering why we haven't included the parantheses after the functio
 **btn.addEventListener('click',displayMessage());**
 
 and saving and realoading, you'll see that the message box appears without the button being clicked!  The parantheses in this context are sometimes called the "function invocation operator".  You only use them when you want to run the function immediately in the current scope.  In the same respect, the code inside the anonymous function is not run immediately, as it is inside the function scope.
+
+## Classes in Javascript
+Classes are a template for creating objects.  They encapsulate data with code to work on that data.  Classes in javascript are built on prototypes but also have some syntax and semantics.  They are similar to classes in other object-oriented programming languages such Java and C++.
