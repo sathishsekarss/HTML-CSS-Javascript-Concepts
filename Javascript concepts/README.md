@@ -90,3 +90,6 @@ and saving and realoading, you'll see that the message box appears without the b
 
 ## Classes in Javascript
 Classes are a template for creating objects.  They encapsulate data with code to work on that data.  Classes in javascript are built on prototypes but also have some syntax and semantics.  They are similar to classes in other object-oriented programming languages such Java and C++.
+
+[!note]
+>Private fields in Javascript can also be created using the hash (#) prefix before the field name.  This makes the field truly private and inaccessible from outside the class.
