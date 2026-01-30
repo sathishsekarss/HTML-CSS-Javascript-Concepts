@@ -8,7 +8,8 @@ Table of contents
 	- [Removing items from the array](#removing-items-from-the-array)
 	- [Loops for arrays](#loops-for-arrays)
 5. [Functions in javascript](#functions-in-javascript)
-5. [Classes in Javascript](#classes-in-javascript)
+6. [Classes in Javascript](#classes-in-javascript)
+7. [public fields in javascript](#public-fields-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -92,3 +93,14 @@ and saving and realoading, you'll see that the message box appears without the b
 Classes are a template for creating objects.  They encapsulate data with code to work on that data.  Classes in javascript are built on prototypes but also have some syntax and semantics.  They are similar to classes in other object-oriented programming languages such Java and C++.
 
 >Private fields in Javascript can also be created using the hash (#) prefix before the field name.  This makes the field truly private and inaccessible from outside the class.
+
+## public fields in javascript
+Private fields also have their public counterparts, which allow every instance to have a property. Fields are usually designed to be independent of the constructor's parameters. For example:
+Public fields are almost equivalent to assigning a property to this. For example, the above example can also be converted to:
+```Javascript
+class MyClass {
+  constructor() {
+    this.luckyNumber = Math.random();
+  }
+}
+```
