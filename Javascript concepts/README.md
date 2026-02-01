@@ -10,6 +10,7 @@ Table of contents
 5. [Functions in javascript](#functions-in-javascript)
 6. [Classes in Javascript](#classes-in-javascript)
 7. [public fields in javascript](#public-fields-in-javascript)
+8. [Diamond problem in Javascript](#diamond-problem-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -104,3 +105,7 @@ class MyClass {
   }
 }
 ```
+## Diamond problem in Javascript
+The diamond problem is a common issue in multiple inheritance scenarios where a class inherits from two classes that both inherit from a common superclass. This can lead to ambiguity about which inherited properties or methods should be used.
+
+[Click here to know more about diamond problem in Javascript.](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
