@@ -11,6 +11,7 @@ Table of contents
 6. [Classes in Javascript](#classes-in-javascript)
 7. [public fields in javascript](#public-fields-in-javascript)
 8. [Diamond problem in Javascript](#diamond-problem-in-javascript)
+9. [promises in javascript](#promises-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -109,3 +110,11 @@ class MyClass {
 The diamond problem is a common issue in multiple inheritance scenarios where a class inherits from two classes that both inherit from a common superclass. This can lead to ambiguity about which inherited properties or methods should be used.
 
 [Click here to know more about diamond problem in Javascript.](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)
+
+## promises in javascript
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason.
+
+A Promise is in one of these states:
+- Pending: Initial state, neither fulfilled nor rejected.
+- Fulfilled: The operation completed successfully.
+- Rejected: The operation failed.
