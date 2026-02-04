@@ -12,6 +12,7 @@ Table of contents
 7. [public fields in javascript](#public-fields-in-javascript)
 8. [Diamond problem in Javascript](#diamond-problem-in-javascript)
 9. [promises in javascript](#promises-in-javascript)
+10. [async and await in javascript](#async-and-await-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -118,3 +119,21 @@ A Promise is in one of these states:
 - Pending: Initial state, neither fulfilled nor rejected.
 - Fulfilled: The operation completed successfully.
 - Rejected: The operation failed.
+
+## async and await in javascript
+The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An async function is a function that is declared with the async keyword, and the await keyword is permitted within it.
+The await operator is used to wait for a Promise. It can only be used inside an async function. The await expression causes async function execution to pause until a Promise is settled (that is, fulfilled or rejected), and to resume execution of the async function after fulfillment. When resumed, the value of the await expression is that of the fulfilled Promise.
+
+Example:
+```Javascript
+async function fetchData() {
+  try {
+    let response = await fetch('https://api.example.com/data');
+    let data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+}
+```
+In this example, the fetchData function is declared as async, allowing the use of await to pause execution until the fetch operation and subsequent JSON parsing are complete.
