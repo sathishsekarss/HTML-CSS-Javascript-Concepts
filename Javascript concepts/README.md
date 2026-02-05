@@ -13,6 +13,7 @@ Table of contents
 8. [Diamond problem in Javascript](#diamond-problem-in-javascript)
 9. [promises in javascript](#promises-in-javascript)
 10. [async and await in javascript](#async-and-await-in-javascript)
+11. [promise chaining in javascript](#promise-chaining-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -137,3 +138,24 @@ async function fetchData() {
 }
 ```
 In this example, the fetchData function is declared as async, allowing the use of await to pause execution until the fetch operation and subsequent JSON parsing are complete.
+
+## promise chaining in javascript
+Promise chaining is a technique that allows you to chain multiple asynchronous operations together. Each operation returns a Promise, and the next operation in the chain waits for the previous one to complete before executing.
+
+Example:
+```Javascript
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    return fetch('https://api.example.com/other-data');
+  })
+  .then(response => response.json())
+  .then(otherData => {
+    console.log(otherData);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+```
+[Refer here for more information on promise chaining in Javascript.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining)
