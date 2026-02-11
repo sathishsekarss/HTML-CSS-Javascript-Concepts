@@ -14,6 +14,7 @@ Table of contents
 9. [promises in javascript](#promises-in-javascript)
 10. [async and await in javascript](#async-and-await-in-javascript)
 11. [promise chaining in javascript](#promise-chaining-in-javascript)
+12. [Composition in promises](#composition-in-promises)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -159,3 +160,12 @@ fetch('https://api.example.com/data')
   });
 ```
 [Refer here for more information on promise chaining in Javascript.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining)
+
+## composition in promises
+
+There are four composition tools for running asynchronous operations concurrently: Promise.all(), Promise.allSettled(), Promise.any(), and Promise.race().
+
+**All()** - The promises settles when all the promises are completed.
+**allSettled()** - This returned promise fulfills when all of the input's promises settle (including when an empty iterable is passed), with an array of objects that describe the outcome of each promise.
+**Any()** - This promise settles when any one of the promise gets completed.
+**Race()** - The promises settles when the promise passed in the array which gets completed first.
