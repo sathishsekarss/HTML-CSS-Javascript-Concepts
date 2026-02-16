@@ -15,6 +15,7 @@ Table of contents
 10. [async and await in javascript](#async-and-await-in-javascript)
 11. [promise chaining in javascript](#promise-chaining-in-javascript)
 12. [Composition in promises](#composition-in-promises)
+13. [Cancelling promises in javascript](#cancelling-promises-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -169,3 +170,6 @@ There are four composition tools for running asynchronous operations concurrentl
 **allSettled()** - This returned promise fulfills when all of the input's promises settle (including when an empty iterable is passed), with an array of objects that describe the outcome of each promise.
 **Any()** - This promise settles when any one of the promise gets completed.
 **Race()** - The promises settles when the promise passed in the array which gets completed first.
+
+## Cancelling promises in javascript
+In JavaScript, there is no built-in way to cancel a Promise once it has been initiated. But you may be able to directly cancel the underlying asynchronous operation, typically using AbortController.  For more details about abort controller, refer mdn docs.
