@@ -16,6 +16,7 @@ Table of contents
 11. [promise chaining in javascript](#promise-chaining-in-javascript)
 12. [Composition in promises](#composition-in-promises)
 13. [Cancelling promises in javascript](#cancelling-promises-in-javascript)
+14. [Web workers in javascript](#web-workers-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -173,3 +174,7 @@ There are four composition tools for running asynchronous operations concurrentl
 
 ## Cancelling promises in javascript
 In JavaScript, there is no built-in way to cancel a Promise once it has been initiated. But you may be able to directly cancel the underlying asynchronous operation, typically using AbortController.  For more details about abort controller, refer mdn docs.
+
+## Web workers in javascript
+Web Workers are a way to run JavaScript code in the background, separate from the main execution thread of a web application. This allows for performing tasks that are computationally intensive or time-consuming without blocking the user interface.
+Web Workers are created using the Worker constructor, which takes a JavaScript file as an argument. The code in this file will be executed in a separate thread. Communication between the main thread and the worker thread is done through message passing using the postMessage() method.
