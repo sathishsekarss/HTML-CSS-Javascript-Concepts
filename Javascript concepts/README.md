@@ -17,6 +17,7 @@ Table of contents
 12. [Composition in promises](#composition-in-promises)
 13. [Cancelling promises in javascript](#cancelling-promises-in-javascript)
 14. [Web workers in javascript](#web-workers-in-javascript)
+15. [Progressive web apps in javascript](#progressive-web-apps-in-javascript)
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -178,3 +179,7 @@ In JavaScript, there is no built-in way to cancel a Promise once it has been ini
 ## Web workers in javascript
 Web Workers are a way to run JavaScript code in the background, separate from the main execution thread of a web application. This allows for performing tasks that are computationally intensive or time-consuming without blocking the user interface.
 Web Workers are created using the Worker constructor, which takes a JavaScript file as an argument. The code in this file will be executed in a separate thread. Communication between the main thread and the worker thread is done through message passing using the postMessage() method.
+
+## Progressive web apps in javascript
+Progressive Web Apps (PWAs) are web applications that use modern web technologies to provide a user experience similar to native apps. They are designed to work on any platform that uses a standards-compliant browser, including both desktop and mobile devices.
+PWAs leverage features such as service workers, which allow for offline functionality and background syncing, and web app manifests, which enable users to install the app on their home screen. They also utilize responsive design to ensure a seamless experience across different screen sizes and orientations.
