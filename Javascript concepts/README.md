@@ -18,6 +18,8 @@ Table of contents
 13. [Cancelling promises in javascript](#cancelling-promises-in-javascript)
 14. [Web workers in javascript](#web-workers-in-javascript)
 15. [Progressive web apps in javascript](#progressive-web-apps-in-javascript)
+16. [constructor functions in javascript](#constructor-functions-in-javascript)
+
 ## Variable declaration
 Types of variable declaration: let, var, and const
 
@@ -183,3 +185,6 @@ Web Workers are created using the Worker constructor, which takes a JavaScript f
 ## Progressive web apps in javascript
 Progressive Web Apps (PWAs) are web applications that use modern web technologies to provide a user experience similar to native apps. They are designed to work on any platform that uses a standards-compliant browser, including both desktop and mobile devices.
 PWAs leverage features such as service workers, which allow for offline functionality and background syncing, and web app manifests, which enable users to install the app on their home screen. They also utilize responsive design to ensure a seamless experience across different screen sizes and orientations.
+
+## constructor functions in javascript
+In JavaScript, a constructor function is a regular function used with the new keyword to create and initialize multiple objects of a similar type. It acts as a blueprint for creating objects, defining their properties and methods. By convention, constructor function names start with a capital letter (PascalCase).In JavaScript, a constructor function is a regular function used with the new keyword to create and initialize multiple objects of a similar type. It acts as a blueprint for creating objects, defining their properties and methods. By convention, constructor function names start with a capital letter (PascalCase).
