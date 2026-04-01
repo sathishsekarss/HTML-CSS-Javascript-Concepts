@@ -14,7 +14,6 @@ Table of Contents
 Below is the list of buttons classes that bootstrap offers that can used right out of the box.
 
 ```
-```
 btn - Base class required for all Bootstrap buttons  
 btn-primary - Main action button with primary color  
 btn-secondary - Secondary action button with muted color  
@@ -74,5 +73,3 @@ btn-group-vertical - Stacks buttons vertically
 
 active - Shows button in active/pressed state  
 disabled - Disables button interaction  
-```
-```
