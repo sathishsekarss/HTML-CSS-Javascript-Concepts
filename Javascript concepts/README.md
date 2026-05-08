@@ -20,6 +20,7 @@ Table of contents
 15. [Progressive web apps in javascript](#progressive-web-apps-in-javascript)
 16. [constructor functions in javascript](#constructor-functions-in-javascript)
 17. [i18n - internationalization](#i18n-internationalization)
+18. [Iterators and Generators in javascript](#iterators-and-generators-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -190,8 +191,62 @@ PWAs leverage features such as service workers, which allow for offline function
 ## constructor functions in javascript
 In JavaScript, a constructor function is a regular function used with the new keyword to create and initialize multiple objects of a similar type. It acts as a blueprint for creating objects, defining their properties and methods. By convention, constructor function names start with a capital letter (PascalCase).In JavaScript, a constructor function is a regular function used with the new keyword to create and initialize multiple objects of a similar type. It acts as a blueprint for creating objects, defining their properties and methods. By convention, constructor function names start with a capital letter (PascalCase).
 
-## #i18n-internationalization
+## i18n-internationalization
 
 Internationalization is the process of developing software, websites, or applications so they can be easily adapted to various languages, regions, and cultures without engineering changesthe process of developing software, websites, or applications so they can be easily adapted to various languages, regions, and cultures without engineering changes.
 
 One example of  i18n-internationalization is angulars built-in multi language support through their built in library.
+
+## iterators-and-generators-javascript
+Iterator - An iterator is an object that lets you go through a collection one value at a time.
+
+eg.
+
+```
+const iterator = {
+  data: [10, 20, 30],
+  index: 0,
+
+  next() {
+    if (this.index < this.data.length) {
+      return {
+        value: this.data[this.index++],
+        done: false
+      };
+    }
+
+    return {
+      done: true
+    };
+  }
+};
+
+console.log(iterator.next()); // { value: 10, done: false }
+console.log(iterator.next()); // { value: 20, done: false }
+console.log(iterator.next()); // { value: 30, done: false }
+console.log(iterator.next()); // { done: true }
+```
+
+examples are Arrays, Strings, Maps, Sets.
+
+Generators - A generator is a special function that can pause and resume execution.
+
+eg.
+
+```
+function* numbers() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
+const gen = numbers();
+
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+```
+yeild pauses the function
+
+Some real world examples include Lazy loading, Infinite Data Streams, Custom loops
