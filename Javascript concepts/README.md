@@ -21,6 +21,7 @@ Table of contents
 16. [constructor functions in javascript](#constructor-functions-in-javascript)
 17. [i18n - internationalization](#i18n-internationalization)
 18. [Iterators and Generators in javascript](#iterators-and-generators-javascript)
+19. [User defined iterators example](#user-defined-iterators)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -250,3 +251,17 @@ console.log(gen.next());
 yeild pauses the function
 
 Some real world examples include Lazy loading, Infinite Data Streams, Custom loops
+
+## user-defined-iterators
+You can make your own iterables like this:
+
+```
+const myIterable = {
+  *[Symbol.iterator]() {
+    yield 1;
+    yield 2;
+    yield 3;
+  },
+};
+```
+this iterables can be iterated using the for of loop.
