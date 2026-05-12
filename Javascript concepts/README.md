@@ -273,3 +273,13 @@ Resource management in JavaScript means controlling and cleaning up things your 
 Think of it like:
 
 “If you open or create something, you should properly close, stop, or release it.”
+
+eg:
+```
+const fs = require("fs");
+
+const stream = fs.createReadStream("file.txt");
+
+stream.close();
+```
+Opening and closing streams after use.
