@@ -22,6 +22,7 @@ Table of contents
 17. [i18n - internationalization](#i18n-internationalization)
 18. [Iterators and Generators in javascript](#iterators-and-generators-javascript)
 19. [User defined iterators example](#user-defined-iterators)
+20. [Resource management in Javascript](#resource-management-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -265,3 +266,10 @@ const myIterable = {
 };
 ```
 this iterables can be iterated using the for of loop.
+
+## resource-management-in-javascript
+Resource management in JavaScript means controlling and cleaning up things your program uses so memory, CPU, files, network connections, and browser resources don’t get wasted.
+
+Think of it like:
+
+“If you open or create something, you should properly close, stop, or release it.”
