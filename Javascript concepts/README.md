@@ -23,6 +23,7 @@ Table of contents
 18. [Iterators and Generators in javascript](#iterators-and-generators-javascript)
 19. [User defined iterators example](#user-defined-iterators)
 20. [Resource management in Javascript](#resource-management-in-javascript)
+21. [Using keyword in javascript](#using-keyword-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -283,3 +284,15 @@ const stream = fs.createReadStream("file.txt");
 stream.close();
 ```
 Opening and closing streams after use.
+
+## using-keyword-in-javascript
+using in JavaScript is part of the Explicit Resource Management feature.
+It helps automatically clean up resources when they go out of scope.
+
+Similar to:
+
+1. Python → with
+2. C# → using
+3. Java → try-with-resources
+
+With using, cleanup happens automatically.
