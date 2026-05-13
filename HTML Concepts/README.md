@@ -4,6 +4,7 @@ Table of contents
 - [Adding images to web pages](#Adding-images-to-web-pages)
 - [Adding videos and audios to web pages](#Adding-videos-and-audios-to-web-pages)
 - [Adding objects and Iframes in HTML pages](#Adding-objects-and-Iframes-in-HTML-pages)
+- [why not to use div for everything](#why-to-avoid-using-div)
 
 # Head tag
 
@@ -91,3 +92,7 @@ For a more detailed explanation on this topic, refer mdn docs.
 TIPS:  There are two types of images raster image, which contains the grid of pixels about what color each pixel is and where it is placed etc.
 
 The other one is vector image. The example of vector image is svg’s.  They contain algorithm about the image details in .svg file in the xml format.
+
+## why-to-avoid-using-div
+
+Div is called as no semantic html element.  It doesn't convey any proper meaning why we are using in html page.  It's always best to use Proper semanatic html element.  Only use div whenever it is necessary.  It increased accessibility score for a site.
