@@ -24,6 +24,7 @@ Table of contents
 19. [User defined iterators example](#user-defined-iterators)
 20. [Resource management in Javascript](#resource-management-in-javascript)
 21. [Using keyword in javascript](#using-keyword-in-javascript)
+22. [Disposable stack in javascript](#disposable-stack-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -296,3 +297,40 @@ Similar to:
 3. Java → try-with-resources
 
 With using, cleanup happens automatically.
+
+## disposable-stack-in-javascript
+DisposableStack is a modern JavaScript feature used for automatic resource cleanup.
+
+It helps manage things like:
+    -file handles
+    -database connections
+    -timers
+    -streams
+    -locks
+    -temporary resources
+
+example without disposable stack
+```
+const file = openFile();
+const connection = connectDb();
+
+try {
+  // work
+} finally {
+  connection.close();
+  file.close();
+}
+```
+
+example by using disposable stack
+```
+const stack = new DisposableStack();
+
+const resource = acquireResource();
+
+stack.use(resource);
+
+// later
+stack.dispose();
+```
+*A resource becomes disposable if it implements: [Symbol.dispose]()*
