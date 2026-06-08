@@ -25,6 +25,7 @@ Table of contents
 20. [Resource management in Javascript](#resource-management-in-javascript)
 21. [Using keyword in javascript](#using-keyword-in-javascript)
 22. [Disposable stack in javascript](#disposable-stack-in-javascript)
+23. [Maps and Sets in javascript](#maps-and-sets-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -334,3 +335,34 @@ stack.use(resource);
 stack.dispose();
 ```
 *A resource becomes disposable if it implements: [Symbol.dispose]()*
+
+## maps-and-sets-in-javascript
+
+Maps: A Map is a collection of key-value pairs where keys can be of any data type.
+
+eg:
+```
+const user = new Map();
+
+user.set("name", "Sathish");
+user.set("age", 28);
+user.set(1, "one");
+
+console.log(user);
+//some of the common methods acquireResource
+user.set("city", "Bangalore");
+console.log(user.has("age")); // true
+console.log(user.size);
+user.clear();
+```
+
+Sets: A Set is a collection of unique values.  Duplicates are automatically removed.
+
+eg:
+```
+const numbers = new Set([1, 2, 3, 3, 4, 4]);
+
+console.log(numbers);
+
+// output: Set(4) {1, 2, 3, 4}
+```
