@@ -4,6 +4,7 @@ Table of Contents
 
 1. [What is Bootstrap](#Bootstrap)
 2. [Bootstrap button classes](#Bootstrap-buttons)
+3. [Bootstrap flexbox classes](#Bootstrap-flexbox-classes)
 
 
 ## Bootstrap
@@ -73,3 +74,34 @@ btn-group-vertical - Stacks buttons vertically
 
 active - Shows button in active/pressed state  
 disabled - Disables button interaction  
+```
+
+## Bootstrap-flexbox-classes
+```
+d-flex -> apply flexbox
+d-inline-flex
+
+flex-row -> flex direction is row
+flex-column -> flex direction is column
+flex-wrap -> makes contents inside the flexbox to wrap
+
+//alignment classes
+
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-between
+justify-content-around
+justify-content-evenly
+
+align-items-start
+align-items-center
+align-items-end
+align-items-stretch
+
+flex-grow-1
+flex-shrink-0
+
+ms-auto
+me-auto
+```
