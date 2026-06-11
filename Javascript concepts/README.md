@@ -26,6 +26,7 @@ Table of contents
 21. [Using keyword in javascript](#using-keyword-in-javascript)
 22. [Disposable stack in javascript](#disposable-stack-in-javascript)
 23. [Maps and Sets in javascript](#maps-and-sets-in-javascript)
+24. [Structured clone in javascript](#structured-clone-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -365,4 +366,23 @@ const numbers = new Set([1, 2, 3, 3, 4, 4]);
 console.log(numbers);
 
 // output: Set(4) {1, 2, 3, 4}
+```
+
+## structured-clone-in-javascript
+The Structured Clone Algorithm is a built-in mechanism used by JavaScript to deep copy complex objects safely and efficiently.  It can be used for arrays, objects.
+
+Example:
+```
+const obj = {
+  name: "John",
+  address: {
+    city: "Chennai"
+  }
+};
+
+const copy = { ...obj };
+
+copy.address.city = "Mumbai";
+
+console.log(obj.address.city); // Mumbai
 ```
