@@ -5,6 +5,7 @@ Table of Contents
 1. [What is Bootstrap](#Bootstrap)
 2. [Bootstrap button classes](#Bootstrap-buttons)
 3. [Bootstrap flexbox classes](#Bootstrap-flexbox-classes)
+4. [Bootstrap margin classes](#Bootstrap-margin-classes)
 
 
 ## Bootstrap
@@ -104,4 +105,20 @@ flex-shrink-0
 
 ms-auto
 me-auto
+```
+
+## Bootstrap-margin-classes
+Examples of Bootstrap margin classes are:
+
+```
+m-3        => margin: 1rem
+mt-5       => margin-top: 3rem
+mb-2       => margin-bottom: 0.5rem
+ms-4       => margin-left: 1.5rem
+me-4       => margin-right: 1.5rem
+mx-3       => margin-left & margin-right: 1rem
+my-3       => margin-top & margin-bottom: 1rem
+mx-auto    => center horizontally
+ms-auto    => push flex item right
+mt-md-5    => top margin on md and above
 ```
