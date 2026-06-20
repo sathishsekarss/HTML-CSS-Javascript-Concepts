@@ -1,8 +1,12 @@
 # Table of contents
 
+1. [Installing a markdown previewer](#installing-a-markdown-previewer)
 1. [Highlighting text in bold in markdown](#highlighting-text-in-bold-in-markdown)
 1. [Italicizing text in markdown](#italicizing-text-in-markdown)
 1. [Creating a link in markdown](#creating-a-link-in-markdown)
+
+## installing-a-markdown-previewer
+Always install a markdown previewer to view the contents while parallelly editiong.
 
 ## highlighting-text-in-bold-in-markdown
 To highlight a text in bold in markdow use the following syntax
@@ -25,3 +29,4 @@ To creat a link in markdown, use the following syntax
 ```
 
 eg: [Link to google.com](https://www.google.com)
+
