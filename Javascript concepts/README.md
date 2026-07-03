@@ -27,6 +27,7 @@ Table of contents
 22. [Disposable stack in javascript](#disposable-stack-in-javascript)
 23. [Maps and Sets in javascript](#maps-and-sets-in-javascript)
 24. [Structured clone in javascript](#structured-clone-in-javascript)
+25. [Navigator.language in javascript](#navigator.language-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -386,3 +387,9 @@ copy.address.city = "Mumbai";
 
 console.log(obj.address.city); // Mumbai
 ```
+
+## navigator.language-in-javascript
+The Navigator interface represents the state and the identity of the user agent. It allows scripts to query it and to register themselves to carry on some activities.
+
+Navigator.language:
+Returns a string representing the preferred language of the user, usually the language of the browser UI. The null value is returned when this is unknown.
