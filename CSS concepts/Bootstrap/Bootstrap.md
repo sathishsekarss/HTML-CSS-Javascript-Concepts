@@ -6,6 +6,7 @@ Table of Contents
 2. [Bootstrap button classes](#Bootstrap-buttons)
 3. [Bootstrap flexbox classes](#Bootstrap-flexbox-classes)
 4. [Bootstrap margin classes](#Bootstrap-margin-classes)
+4. [Bootstrap padding classes](#Bootstrap-padding-classes)
 
 
 ## Bootstrap
@@ -122,3 +123,33 @@ mx-auto    => center horizontally
 ms-auto    => push flex item right
 mt-md-5    => top margin on md and above
 ```
+
+## Bootstrap-padding-classes
+The syntax for bootstrap padding class is:
+```
+p{side}-{breakpoint?}-{size}
+```
+
+Eg. of padding directions.
+
+| Class  | Description                 |
+| ------ | --------------------------- |
+| `p-*`  | Padding on all sides        |
+| `pt-*` | Padding top                 |
+| `pb-*` | Padding bottom              |
+| `ps-*` | Padding start (left in LTR) |
+| `pe-*` | Padding end (right in LTR)  |
+| `px-*` | Padding left & right        |
+| `py-*` | Padding top & bottom        |
+
+eg. of padding Sizes
+
+| Class  | Value                                                   |
+| ------ | ------------------------------------------------------- |
+| `0`    | `0`                                                     |
+| `1`    | `0.25rem` (4px)                                         |
+| `2`    | `0.5rem` (8px)                                          |
+| `3`    | `1rem` (16px)                                           |
+| `4`    | `1.5rem` (24px)                                         |
+| `5`    | `3rem` (48px)                                           |
+| `auto` | Not supported for padding (only margins support `auto`) |
