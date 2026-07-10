@@ -3,10 +3,11 @@ Notes about bootstrap css
 Table of Contents
 
 1. [What is Bootstrap](#Bootstrap)
-2. [Bootstrap button classes](#Bootstrap-buttons)
-3. [Bootstrap flexbox classes](#Bootstrap-flexbox-classes)
-4. [Bootstrap margin classes](#Bootstrap-margin-classes)
-4. [Bootstrap padding classes](#Bootstrap-padding-classes)
+1. [Bootstrap button classes](#Bootstrap-buttons)
+1. [Bootstrap flexbox classes](#Bootstrap-flexbox-classes)
+1. [Bootstrap margin classes](#Bootstrap-margin-classes)
+1. [Bootstrap padding classes](#Bootstrap-padding-classes)
+1. [z-index in bootstrap](#z-index-in-bootstrap)
 
 
 ## Bootstrap
@@ -153,3 +154,15 @@ eg. of padding Sizes
 | `4`    | `1.5rem` (24px)                                         |
 | `5`    | `3rem` (48px)                                           |
 | `auto` | Not supported for padding (only margins support `auto`) |
+
+## z-index-in-bootstrap
+Example of z-index in bootstrap.
+
+| Class  | CSS Applied    |
+| ------ | -------------- |
+| `z-n1` | `z-index: -1;` |
+| `z-0`  | `z-index: 0;`  |
+| `z-1`  | `z-index: 1;`  |
+| `z-2`  | `z-index: 2;`  |
+| `z-3`  | `z-index: 3;`  |
+
