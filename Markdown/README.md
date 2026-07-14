@@ -5,6 +5,7 @@
 1. [Italicizing text in markdown](#italicizing-text-in-markdown)
 1. [Creating a link in markdown](#creating-a-link-in-markdown)
 1. [using automating increamental numbers for list](#using-automating-increamental-numbers-for-list)
+1. [Adding images in markdown](#adding-images-in-markdown)
 
 ## installing-a-markdown-previewer
 Always install a markdown previewer to view the contents while parallelly editiong.
@@ -41,3 +42,10 @@ In order the index the list with automatic increamental numbers, use the followi
 ```
 
 Here **1.** will take care of increamenting the numbers for each list.
+
+## adding-images-in-markdown
+In Markdown, you can add images using the following syntax:
+
+```
+![Alt Text](image-path)
+```
