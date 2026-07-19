@@ -8,7 +8,7 @@ Table of Contents
 1. [Bootstrap margin classes](#Bootstrap-margin-classes)
 1. [Bootstrap padding classes](#Bootstrap-padding-classes)
 1. [z-index in bootstrap](#z-index-in-bootstrap)
-
+1. [Bootstrap grid classes](#Bootstrap-grid-classes)
 
 ## Bootstrap
 [Bootstrap](https://getbootstrap.com/) is a popular front-end framework for building responsive and mobile-first websites. It provides a collection of CSS and JavaScript components that make it easier to create visually appealing and functional web pages.
@@ -166,3 +166,26 @@ Example of z-index in bootstrap.
 | `z-2`  | `z-index: 2;`  |
 | `z-3`  | `z-index: 3;`  |
 
+## Bootstrap-grid-classes
+```
+container
+container-fluid
+container-sm
+container-md
+container-lg
+container-xl
+container-xxl
+
+row
+
+col
+col-auto
+
+col-1 ... col-12
+
+col-sm-*
+col-md-*
+col-lg-*
+col-xl-*
+col-xxl-*
+```
