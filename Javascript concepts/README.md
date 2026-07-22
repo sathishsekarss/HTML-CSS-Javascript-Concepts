@@ -28,6 +28,7 @@ Table of contents
 23. [Maps and Sets in javascript](#maps-and-sets-in-javascript)
 24. [Structured clone in javascript](#structured-clone-in-javascript)
 25. [Navigator.language in javascript](#navigator.language-in-javascript)
+26. [Collation in javascript](#collation-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -393,3 +394,28 @@ The Navigator interface represents the state and the identity of the user agent.
 
 Navigator.language:
 Returns a string representing the preferred language of the user, usually the language of the browser UI. The null value is returned when this is unknown.
+
+## collation-in-javascript
+In JavaScript, collation refers to how strings are compared and sorted according to the rules of a specific language (locale).
+
+JavaScript provides the Intl.Collator object for this purpose.
+Why not use sort()?
+suppose we have
+```
+const fruits = ["banana", "apple", "Orange"];
+
+console.log(fruits.sort()); // ["Orange", "apple", "banana"]
+//Because sort() compares strings based on their Unicode values, not according to language rules.
+```
+
+But using Intl.Collator
+
+```
+const fruits = ["banana", "apple", "Orange"];
+
+const collator = new Intl.Collator("en");
+
+fruits.sort(collator.compare);
+
+console.log(fruits); //["apple", "banana", "Orange"]
+```
