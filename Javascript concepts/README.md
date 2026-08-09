@@ -29,6 +29,7 @@ Table of contents
 24. [Structured clone in javascript](#structured-clone-in-javascript)
 25. [Navigator.language in javascript](#navigator.language-in-javascript)
 26. [Collation in javascript](#collation-in-javascript)
+27. [Segmentation in javascript](#segmentation-in-javascript)
 
 ## Variable declaration
 Types of variable declaration: let, var, and const
@@ -419,3 +420,31 @@ fruits.sort(collator.compare);
 
 console.log(fruits); //["apple", "banana", "Orange"]
 ```
+
+## segmentation-in-javascript
+Segmentation in JavaScript means breaking text into meaningful pieces, such as sentences, words, or individual characters, while respecting language-specific rules.
+
+Eg:
+```
+const segmenter = new Intl.Segmenter("en", {
+    granularity: "word"
+});
+
+const text = "Hello world! How are you?";
+
+const segments = segmenter.segment(text);
+
+for (const segment of segments) {
+    console.log(segment.segment);
+}
+
+Output:
+Hello
+world
+!
+How
+are
+you
+?
+```
+Types of granularity are: grapheme, word, sentence.
